@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            // To run this task with a shortcut, refer to this StackOverflow question: https://stackoverflow.com/questions/52786022/shortcut-for-running-terminal-command-in-vs-code
+            "label": "TestAllFiles",
+            "type": "shell",
+            "command": "cargo test",
+        }
+    ]
+}
